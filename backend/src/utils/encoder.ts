@@ -1,9 +1,9 @@
-export function Encoder(input: number) {
+export function Encoder(input: number): string {
     const chars: string = '1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
     let result: string = "";
 
     if (input == 0) {
-        return 0;
+        return "";
     }
 
     while (input > 0) {
