@@ -4,13 +4,15 @@
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/jsonwebtoken": "^9.0.10"
   },
   "peerDependencies": {
     "typescript": "^7"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
-    "drizzle-orm": "^0.45.3"
+    "drizzle-orm": "^0.45.3",
+    "jsonwebtoken": "^9.0.3"
   }
 }
